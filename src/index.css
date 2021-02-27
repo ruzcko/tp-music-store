@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #378692;
+  color: #edf5e1;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.back-button:active {
+  background-color: #f2f2f2;
+}
+
+.card:hover {
+  background-color: #5cdb95;
+  color: #05386b;
+}
+
+.text-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #8ee4af; /* Green */
+  border: none;
+  color: #05386b;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #5cdb95;
+  color: #05386b;
+}

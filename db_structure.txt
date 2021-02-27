@@ -1,0 +1,18 @@
+collections: {
+
+  albums: [
+    document: {
+      name,
+      totalSold
+    }
+  ],
+
+  songs: [
+    document: {
+      name,
+      albumID,
+      totalPlays
+    }
+  ]
+
+}

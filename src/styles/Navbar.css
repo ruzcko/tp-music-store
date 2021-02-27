@@ -1,0 +1,30 @@
+.navbar-container {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-bg {
+  position: sticky;
+  top: 0;
+  background-color: #053865;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.navbar-link {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #edf5e1;
+}
+
+.navbar-logo {
+  color: #edf5e1;
+  text-decoration: none;
+}
+
+.navbar-logo:hover {
+  color: #87e293;
+}
+
+.navbar-link:hover {
+  color: #87e293;
+}
